@@ -9,7 +9,37 @@ body {
 h1 {
   color: #0056b3;
 }
-
+div.main {
+  display: flex;
+  flex-direction: row; /* Coloca os itens lado a lado */
+  justify-content: center; /* Centraliza na tela */
+  align-items: center; /* Alinha as alturas */
+  gap: 30px; /* Cria um espaço entre o texto e a imagem */
+  margin-top: 20px;
+}
+div.descricao {
+  max-width: 600px;
+  text-align: left; /* Força o texto para a esquerda */
+  background-color: #e5f6ff;
+  padding: 10px;
+}
+div.bloco-imagem {
+  display: flex;
+  flex-direction: column; /* Coloca a frase embaixo da imagem */
+  align-items: center; /* Centraliza a frase em relação à imagem */
+}
+img.imagem {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+h3.descimg {
+  font-size: 1.17em;
+  margin-block-start: 2px;
+  margin-block-end: 2px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
 p {
   font-size: 18px;
 }
