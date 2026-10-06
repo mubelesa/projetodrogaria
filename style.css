@@ -1,18 +1,28 @@
 .header {
     background: #111;
     padding: 20px 40px;
+
 }
 
+.logo {
+    width: 150px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-left: 50px;
+}
 .menu ul {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     gap: 15px;
-
     margin: 0;
     padding: 0;
-
     list-style: none;
+    background-color: black;
+    padding-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menu a {
@@ -49,10 +59,9 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background-color: black;
   color: #333333;
   text-align: center;
-  margin-top: 50px;
 }
 
 div.main {
@@ -60,14 +69,11 @@ div.main {
   flex-direction: column; /* Coloca os itens lado a lado */
   justify-content: center; /* Centraliza na tela */
   align-items: center; /* Alinha as alturas */
-  gap: 20px; /* Cria um espaço entre o texto e a imagem */
-}
 
-div.descricao {
-  max-width: 600px;
-  text-align: left;
-  background-color: #e5f6ff;
-  padding: 10px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 div.bloco-imagem {
   display: flex;
@@ -87,5 +93,18 @@ h3.descimg {
   margin-inline-end: 0px;
 }
 p {
-  font-size: 18px;
+  font-size: 10px;
+}
+
+.footer {
+  background-color: #111;
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+}
+
+.rodape {
+  width: 100%;
+  height: auto;
 }
